@@ -1,7 +1,6 @@
 FROM openjdk:8
 ENV SERVICEDESK_VERSION=3.12.0
 ENV JIRA_HOME=/data
-ENV CATALINA_OPTS="-Dfqdn=servicedesk.mydomain.com"
 
 VOLUME /data
 WORKDIR /srv
