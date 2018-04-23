@@ -26,7 +26,7 @@
         <Connector port="8080" maxThreads="150" minSpareThreads="25" connectionTimeout="20000" enableLookups="false"
                    maxHttpHeaderSize="8192" protocol="HTTP/1.1" useBodyEncodingForURI="true" redirectPort="8443"
                    acceptCount="100" disableUploadTimeout="true" bindOnInit="false" scheme="https"
-                   proxyName="servicedesk.dbca.wa.gov.au" proxyPort="443"/>
+                   proxyName="${fqdn}" proxyPort="443"/>
 
         <Engine name="Catalina" defaultHost="localhost">
             <Host name="localhost" appBase="webapps" unpackWARs="true" autoDeploy="true">
